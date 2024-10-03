@@ -1,0 +1,56 @@
+/* src/components/FeaturedTutorials.css */
+.tutorials-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tutorials-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.tutorials-list .card {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.tutorials-list .card img {
+    width: 100%;
+    height: auto;
+}
+
+.tutorials-list h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #333;
+}
+
+.tutorials-list .card-header {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.tutorials-list .card-meta {
+    font-size: 14px;
+    color: #666;
+}
+
+.tutorials-list .card-description {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.tutorials-list button {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff; /* Corrected line */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

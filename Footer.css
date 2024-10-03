@@ -1,0 +1,51 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #f1f1f1;
+}
+
+.footer p {
+    margin: 5px 0;
+    color: #cccccc;
+}
+
+.footer .newsletter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .newsletter input {
+    width: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+    color: #bbbbbb;
+}
